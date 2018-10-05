@@ -6,7 +6,7 @@ def calc_mean(x):
         t = float(input())
         l.append(t)
         total_sum += t
-    
+
     return total_sum/x
 
 
@@ -29,4 +29,4 @@ coef_var = round((std/mean) * 100, 2)
 print('Mean of vector x: {}'.format(mean))
 print('Variance of vector x: {}'.format(var))
 print('Standard Diviation of vector x: {}'.format(std))
-print('Coefficient of veriantion of vector x: {}%'.format(coef_var))
+print('Coefficient of veriation of vector x: {}%'.format(coef_var))
