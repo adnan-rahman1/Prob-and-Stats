@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Probability Density Function Calcular
+# Probability Density Function Calculator
 
 x = int(input('Enter the length of the input vector x: '))
 
